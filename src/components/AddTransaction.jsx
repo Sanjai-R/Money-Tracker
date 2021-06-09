@@ -20,12 +20,12 @@ export const AddTransaction = () => {
       <h1>Add new transaction</h1>
       <form onSubmit={onSubmit}>
         <div className="form-control">
-          <label htmlFor="text"></label>
+          <label htmlFor="text">Remarks</label>
           <input
             type="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Enter text..."
+            placeholder="Enter Remarks..."
           />
         </div>
         <div className="form-control">
