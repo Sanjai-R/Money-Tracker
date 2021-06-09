@@ -6,15 +6,18 @@
   width: 80%;
   border-radius: 10px;
   border: 1px solid #202020;
+
 }
-.plus,.minus{
-  padding:0 1.2rem ;
+.exp,.inc{
+  padding:1rem 1.2rem ;
+  font-size:16px;
+  font-weight: bold;
 }
-.plus {
+.inc {
   color: #1DB954;
 }
 
-.minus {
+.exp {
   color: rgb(250, 0, 0,0.7);
   
 }

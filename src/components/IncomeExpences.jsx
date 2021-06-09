@@ -21,8 +21,8 @@ function IncomeExpences({ data }) {
   return (
     <div>
       <div>
-        <h2>Hey you,</h2>
-        <h3>“Today save your money tomorrow the money will save you!”</h3>
+        <h2 >Hey you,</h2>
+        <h3 style={{fontWeight:400}}>“Today save your money, tomorrow the money will save you!”</h3>
       </div>
       <div  className="balance">
       <h2>Your Balance</h2><h3><Countup

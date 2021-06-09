@@ -6,10 +6,10 @@ function History({ amount, remarks, date,time }) {
   return (
     <div className="history">
     
-      <div className="Remarks"><h3>{remarks}</h3>{date}  {time}</div>
-      <div className={amount < 0 ? "minus" : "plus"}>
-        <h3>{sign}
-        {amount}</h3>
+      <div className="Remarks"><h4>{remarks}</h4><h5 style={{fontWeight: 300}}>{date}  {time}</h5></div>
+      <div className={amount < 0 ? "exp" : "inc"}>
+        <p  >{sign}
+        {amount}</p>
       </div>
     </div>
   );
