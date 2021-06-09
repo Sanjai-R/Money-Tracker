@@ -31,7 +31,6 @@ function App() {
 
       <div className="history-trans">
         <div className="trans">
-        <p>Add new transaction</p>
           <AddTransaction />
         </div>
 
