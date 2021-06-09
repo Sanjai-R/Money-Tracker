@@ -1,0 +1,26 @@
+.history {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d6cece;
+  margin-bottom: 20px;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid #202020;
+}
+.plus,.minus{
+  padding:0 1.2rem ;
+}
+.plus {
+  color: #1DB954;
+}
+
+.minus {
+  color: rgb(250, 0, 0,0.7);
+  
+}
+.Remarks{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:0 1.2rem ;
+}

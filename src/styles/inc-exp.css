@@ -1,0 +1,38 @@
+.inc-exp-container {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .inc-exp-container > div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .inc-exp-container > div:first-of-type {
+    border-right: 1px solid #8b8a8a;
+  }
+  
+  .money {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+  }
+  
+  .money.plus {
+    color: #2ecc71;
+  }
+  
+  .money.minus {
+    color: rgb(250, 0, 0,0.7);
+  }
+  .balance{
+    text-align: center;
+    font-size:1.2rem
+  }
+  .balance >  h3{
+  color: #5a71d7;
+  }
